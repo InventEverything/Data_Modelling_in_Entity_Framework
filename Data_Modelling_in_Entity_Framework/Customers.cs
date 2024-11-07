@@ -38,6 +38,6 @@ namespace Data_Modelling_in_Entity_Framework
 
         // collection allows a each customer to have multiple likes
         [AllowNull]
-        public ICollection<Likes> Likes { get; set; }               // many customers can have many likes,          nullable
+        public ICollection<CustomerLikes> Likes { get; set; }               // many customers can have many likes,          nullable
     }
 }

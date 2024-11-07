@@ -12,6 +12,6 @@ namespace Data_Modelling_in_Entity_Framework
         public string ThingLiked { get; set; }
 
         // collection of customers allows each like to have multiple customers associated with it
-        public ICollection<Customers> CustomerId { get; set; }
+        public ICollection<CustomerLikes> CustomerId { get; set; }
     }
 }
